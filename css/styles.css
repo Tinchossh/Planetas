@@ -1,4 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/razed?styles=37171');
+@font-face {
+  font-family: "Razed";
+  src: url("../images/Razed.ttf");
+}
 
 
 body {
