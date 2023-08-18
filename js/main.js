@@ -1,7 +1,7 @@
-var scene = document.getElementById("scene");
-var parallaxInstance = new Parallax(scene);
+let scene = document.getElementById("scene");
+let parallaxInstance = new Parallax(scene);
 
-var keys = [
+let keys = [
   "Mercurio",
   "Venus",
   "Tierra",
@@ -11,7 +11,7 @@ var keys = [
   "Urano",
   "Neptuno"
 ];
-var slider = new Swiper(".swiper-container", {
+let slider = new Swiper(".swiper-container", {
   // Optional parameters
   slidesPerView: "auto",
   spaceBetween: 150,
