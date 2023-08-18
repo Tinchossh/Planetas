@@ -1,4 +1,5 @@
-let scene = document.getElementById("scene");
+document.addEventListener("DOMContentLoaded", function() {
+  let scene = document.getElementById("scene");
 let parallaxInstance = new Parallax(scene);
 
 let keys = [
@@ -129,4 +130,6 @@ gsap.to(".swiper-slide", 0, {
 
 gsap.to(".swiper-slide-active", 0, {
   scale: 1
+});
+
 });
